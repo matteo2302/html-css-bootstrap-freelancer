@@ -39,3 +39,33 @@
   border: 2px dashed black;
   height: 100px;
 }
+.contact {
+  border: 2px dashed black;
+  height: 800px;
+}
+.contact-title,
+.name,
+.email,
+.phone,
+.message {
+  height: 80px;
+  border: 2px dashed black;
+}
+.socials {
+  height: 500px;
+  background-color: rgb(58, 84, 109);
+  border: 2px dashed black;
+}
+.socials-options {
+  height: 60px;
+  border: 2px dashed black;
+}
+.coopyrights {
+  height: 100px;
+  background-color: rgb(44, 62, 80);
+  border: 2px dashed black;
+}
+.coopyrights-cont {
+  height: 80px;
+  border: 2px dashed black;
+}
