@@ -1,9 +1,41 @@
 .header {
   height: 80px;
   background-color: rgb(44, 62, 80);
+  border: 2px dashed black;
 }
 
 .jumbo {
   height: 300px;
   background-color: rgb(26, 188, 156);
+  border: 2px dashed black;
+}
+.jumbo-content {
+  border: 2px dashed black;
+}
+.main-img-top-title,
+.main-img-top {
+  height: 100px;
+  background-color: green;
+  border: 2px dashed black;
+}
+.about {
+  height: 800px;
+  background-color: rgb(26, 188, 156);
+  border: 2px dashed black;
+}
+.about-title {
+  border: 2px dashed black;
+  height: 100px;
+}
+.about-content {
+  border: 2px dashed black;
+  height: 200px;
+}
+.about-content {
+  border: 2px dashed black;
+  height: 200px;
+}
+.btn {
+  border: 2px dashed black;
+  height: 100px;
 }
