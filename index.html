@@ -22,7 +22,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-dark navbar-expand-md text-uppercase text-bold">
+      <nav class="navbar navbar-dark navbar-expand-md text-uppercase fw-bold">
         <div class="container-fluid">
           <a class="navbar-brand text-white" href="#">START BOOTSTRAP</a>
           <button
@@ -56,10 +56,14 @@
       <div class="container-fluid mb-5">
         <div class="row justify-content-center text-center jumbo text-white">
           <div class="col-10 jumbo-content">
-            <img class="w-50" src="img/avatar.svg" alt="avatar" />
-            <h1>START BOOTSTRAP</h1>
-            <i class="fa-solid fa-star"></i>
-            <p>GRAPHIC ARTIST-WEB DESIGNER-ILLUSTARTOR</p>
+            <img
+              class="w-50 avatar-img mb-3 mt-3"
+              src="img/avatar.svg"
+              alt="avatar"
+            />
+            <h1 class="mb-3">START BOOTSTRAP</h1>
+            <i class="fa-solid fa-star mb-3"></i>
+            <p class="mb-3">GRAPHIC ARTIST-WEB DESIGNER-ILLUSTARTOR</p>
           </div>
         </div>
       </div>
@@ -67,7 +71,7 @@
     <!-- main -->
     <main>
       <!-- main-top-img -->
-      <div class="container-fluid">
+      <div class="container-fluid mb-4">
         <div class="row justify-content-center">
           <div class="col-6 main-img-top-title text-center">
             <h2>portfolio</h2>
@@ -76,7 +80,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-xl-8">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center gy-4 gx-4">
               <div class="col-11 main-img-top col-md-5 col-xl-4">
                 <img src="img/cabin.png" alt="cabin" />
               </div>
@@ -101,7 +105,9 @@
       </div>
       <!-- about -->
       <div class="container-fluid">
-        <div class="row about justify-content-center align-items-center">
+        <div
+          class="row about justify-content-center align-items-center text-white"
+        >
           <div class="col-4 about-title text-center">
             <h2>about</h2>
             <i class="fa-solid fa-star"></i>
@@ -120,21 +126,62 @@
               starting point!
             </div>
           </div>
-          <div class="col-3 btn">btn</div>
+          <button class="col-3 btn-download">
+            <i class="fa-solid fa-download"></i> download
+          </button>
         </div>
       </div>
       <!-- contact -->
       <div class="container-fluid">
-        <div class="contact justify-content-center row align-items-center">
-          <div class="col-7 contact-title">title</div>
-          <div class="row justify-content-center">
-            <div class="col-7 name">name</div>
-            <div class="col-7 email">email</div>
-            <div class="col-7 phone">phone</div>
-            <div class="col-7 message">message</div>
+        <div
+          class="contact justify-content-center row align-items-center mb-5 mt-5"
+        >
+          <div class="col-7 contact-title text-center">
+            <h2>contact me</h2>
+            <i class="fa-solid fa-star"></i>
           </div>
-          <div class="row justify-content-center">
-            <div class="col-7 btn">btn</div>
+          <div class="col-7">
+            <label for="exampleFormControlInput1 fw-bold" class="form-label"
+              >name</label
+            >
+            <input
+              type="text"
+              class="border-none border-bottom form-control"
+              id="exampleFormControlInput1"
+            />
+          </div>
+          <div class="col-7">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Email Addres</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+            />
+          </div>
+          <div class="col-7 mb-3">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Phone Number</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+            />
+          </div>
+          <div class="col-7 mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >message</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+          <div class="row">
+            <button class="btn">btn</button>
           </div>
         </div>
       </div>

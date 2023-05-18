@@ -22,34 +22,32 @@ nav {
 .jumbo-content i {
   font-size: 14px;
 }
-.main-img-top-title,
-.main-img-top {
+.main-img-top-title {
   min-height: 100px;
 }
+.main-img-top {
+  overflow: hidden;
+}
 .about {
-  height: 800px;
+  height: 700px;
   background-color: rgb(26, 188, 156);
-  border: 2px dashed black;
 }
-.about-title {
-  border: 2px dashed black;
-  height: 100px;
-}
+
 .about-content {
-  border: 2px dashed black;
+  font-size: 22px;
   height: 200px;
 }
-.about-content {
-  border: 2px dashed black;
-  height: 200px;
-}
-.btn {
-  border: 2px dashed black;
-  height: 100px;
+
+.btn-download {
+  border: 1px solid white;
+  color: white;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 10px;
 }
 .contact {
   border: 2px dashed black;
-  height: 800px;
+  height: 500px;
 }
 .contact-title,
 .name,
