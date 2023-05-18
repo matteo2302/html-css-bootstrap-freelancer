@@ -65,8 +65,8 @@ nav {
   height: 500px;
   background-color: rgb(58, 84, 109);
 }
-.socials-options {
-  height: 60px;
+input {
+  padding: 0;
 }
 .coopyrights {
   height: 100px;
