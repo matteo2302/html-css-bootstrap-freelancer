@@ -46,16 +46,13 @@ nav {
   border-radius: 10px;
 }
 .contact {
-  border: 2px dashed black;
   height: 500px;
 }
-.contact-title,
-.name,
-.email,
-.phone,
-.message {
+.form {
+  border: none;
+}
+.contact-title {
   height: 80px;
-  border: 2px dashed black;
 }
 .socials {
   height: 500px;
