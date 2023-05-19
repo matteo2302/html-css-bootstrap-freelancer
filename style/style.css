@@ -1,7 +1,7 @@
 img {
   max-width: 100%;
 }
-nav {
+.bg-nav {
   background-color: rgb(44, 62, 80);
 }
 .fa-start-port {
@@ -16,6 +16,14 @@ nav {
 }
 .jumbo-content {
   min-height: 100px;
+}
+.fa-star::before,
+.fa-star::after {
+  content: "";
+  width: 50%;
+  height: 3px;
+  background-color: white;
+  border-radius: 10px;
 }
 .jumbo-content i {
   font-size: 14px;
